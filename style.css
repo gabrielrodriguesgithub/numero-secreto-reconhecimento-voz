@@ -74,4 +74,7 @@ h4 {
     .parabens {
         font-size: 4em;
     }
+    body {
+        margin-bottom: 3em;
+    }
 }
