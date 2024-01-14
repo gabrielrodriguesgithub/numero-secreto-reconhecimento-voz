@@ -11,7 +11,7 @@ function verificarChuteValido(chute) {
     
     if(numero === numeroAleatorio) {
         document.body.innerHTML = `
-        <h2>Parabéns!</h2>
+        <h2 class="parabens">Parabéns!</h2>
         <h3 class="mensagem-acerto">Você acertou!</h3>
         <h4>O numero secreto era ${numeroAleatorio}</h4>
         <button id="jogar-novamente" class="btn-jogar-novamente"> Jogar novamente </button>
